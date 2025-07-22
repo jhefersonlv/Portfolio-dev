@@ -2,6 +2,18 @@
     color: var(--red);
 }
 
+.text-purple {
+    color: var(--purple);
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.text-green {
+    color: var(--green);
+}
+
 .gray-100 {
     color: var(--gray-100);
 }
@@ -16,4 +28,8 @@
 
 .grid {
     display: grid;
+}
+
+.grid-auto-flow-col {
+    grid-auto-flow: column;
 }

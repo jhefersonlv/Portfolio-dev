@@ -1,0 +1,31 @@
+#services {
+    background-color: var(--gray-600);
+    padding-top: 88px;
+    padding-bottom: 120px;
+}
+
+#card-container {
+    margin-top: 56px;
+    justify-content: center;
+    gap: 24px;
+}
+
+#card {
+
+    padding: 20px;
+
+    border: solid 1px var(--gray-500);
+
+    text-align: start;
+
+    i {
+        font-size: 48px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+
+
+}
