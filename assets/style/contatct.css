@@ -1,0 +1,43 @@
+#contact {
+    background-color: var(--gray-500);
+    padding-bottom: 200px;
+    padding-top: 128px;
+
+    header {
+        margin-bottom: 48px;
+    }
+
+    div {
+
+        justify-content: center;
+        gap: 16px;
+
+        div {
+            padding: 20px;
+            background-color: var(--gray-400);
+            align-items: center;
+            justify-items: start;
+            gap: 12px;
+            border-radius: 8px;
+            
+            i:nth-child(3) {
+                color: var(--blue);
+            }
+
+            p {
+                width: 288px;
+                text-align: start;
+            }
+
+        }
+
+        div:hover {
+            border: 1px solid var(--blue);
+
+            i:nth-child(1) {
+                color: var(--blue);
+            }
+
+        }
+    }
+}

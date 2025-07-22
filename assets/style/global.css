@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: var(--gray-200);
+    text-decoration: none;
 }
 
 
